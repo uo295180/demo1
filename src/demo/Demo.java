@@ -2,9 +2,8 @@ package demo;
 
 public class Demo {
 	public static void main(String[] args) {
-		System.out.println("line 1");
-		System.out.println("line 2");
-		System.out.println("line 3");
-		System.out.println("line 4");
+		for(int i = 0; i < 10; i++) {
+			System.out.println("line " + i);
+		}
 	}
 }
